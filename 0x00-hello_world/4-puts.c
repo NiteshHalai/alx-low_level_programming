@@ -2,7 +2,7 @@
 
 /*
 *main - Entry point
-*Description: 'the program's description'
+*Description: This programme uses puts to print out a string
 *Return: Always 0 (Success)
 */
 
