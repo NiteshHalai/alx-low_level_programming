@@ -3,7 +3,7 @@
 /**
 *main - Entry point
 *Description: This programme uses puts to print out a string
-*Return: Always 0 (Success)
+*Return: 0
 */
 
 int main(void)
