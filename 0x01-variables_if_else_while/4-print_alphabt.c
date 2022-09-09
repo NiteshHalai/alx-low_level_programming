@@ -11,7 +11,7 @@ int main(void)
 {
 char ch = 'a';
 while (ch <= 'z')
-if (ch !='e' or ch !='q')
+if (ch !='e' || ch !='q')
 {
 printf("%c", ch);
 ch++;
