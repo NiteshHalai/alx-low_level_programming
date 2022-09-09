@@ -16,10 +16,10 @@ while (ch <= 'z')
 printf("%c", ch);
 ch++;
 }
-char ch = 'A';
-while (ch <= 'Z')
+char cha = 'A';
+while (cha <= 'Z')
 {
-printf("%c", ch);
+printf("%c", cha);
 ch++;
 }
 printf("\n");
