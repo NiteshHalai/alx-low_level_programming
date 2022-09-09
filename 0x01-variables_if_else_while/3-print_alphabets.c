@@ -11,7 +11,7 @@
 int main(void)
 {
 char ch = 'a';
-while (ch <= 'Z')
+while (ch <= 'z')
 {
 printf("%c", ch);
 ch++;
