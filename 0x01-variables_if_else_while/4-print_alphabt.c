@@ -4,7 +4,7 @@
 
 /**
 *main - Entry point
-*Description: 'prints alphabet in lowcase'
+*Description: 'prints alphabet in lowcase expect e and q'
 *Return: 0
 */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 char ch = 'a';
 while (ch <= 'z')
 {
-if (ch !='e' && ch !='q')
+if (ch != 'e' && ch != 'q')
 printf("%c", ch);
 
 ch++;
