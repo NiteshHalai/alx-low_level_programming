@@ -22,7 +22,7 @@ ch++;
 while (cha <= 'Z')
 {
 printf("%c", cha);
-ch++;
+cha++;
 }
 printf("\n");
 return (0);
