@@ -11,12 +11,14 @@
 int main(void)
 {
 char ch = 'a';
+char cha = 'A';
+ 
 while (ch <= 'z')
 {
 printf("%c", ch);
 ch++;
 }
-char cha = 'A';
+
 while (cha <= 'Z')
 {
 printf("%c", cha);
