@@ -10,7 +10,7 @@
 int main(void)
 {
 int n =0;
-while (ch <= 9)
+while (n <= 9)
 {
 printf("%i", n);
 n++;
