@@ -15,6 +15,6 @@ while (n <= 8)
 printf("%i, ", n);
 n++;
 }
-printf("9\n")
+printf("9\n");
 return (0);
 }
