@@ -1,4 +1,4 @@
 #include <string.h> 
 #include <stdio.h>
 
-void print_alphabet(0);
+void print_alphabet(void);
