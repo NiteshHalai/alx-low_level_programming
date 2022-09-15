@@ -10,7 +10,7 @@
 
 int main(void)
 {
-char to_print = "_putchar"
+const char *to_print = "_putchar"
 int i
 for (i = 0; i < len(_putchar); ++i)
 {
