@@ -12,7 +12,7 @@ int main(void)
 {
 const char *to_print = "_putchar";
 int i;
-for (i = 0; i < len(_putchar); ++i)
+for (i = 0; i < strlen(_putchar); ++i)
 {
   puchar(to_print[i])
 }
