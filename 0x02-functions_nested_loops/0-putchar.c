@@ -9,7 +9,7 @@
 int main(void)
 {
 const char *to_print = "_putchar";
-long unsigned int i;
+unsigned long int i;
 for (i = 0; i < strlen(to_print); ++i)
 {
 putchar(to_print[i]);
