@@ -2,7 +2,8 @@
 /**
 * mul - Entry point
 *
-* Description: multiplies two numbers
+* @a: takes input from other functions.
+* @b: takes input from other functions.
 *
 * Return: multiple
 */
