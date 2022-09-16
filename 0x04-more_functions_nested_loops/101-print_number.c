@@ -6,14 +6,14 @@
 *
 * Return: 0
 */
-void print_number(int n);
+void print_number(int n)
 {
-const char *to_print = n;
-unsigned int i;
-for (i = 0; i < strlen(to_print); ++i)
+int mod;
+while (n > 0)
 {
-putchar(to_print[i]);
+mod = n % 10;
+_putchar(mod);
+n = n/10;
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
