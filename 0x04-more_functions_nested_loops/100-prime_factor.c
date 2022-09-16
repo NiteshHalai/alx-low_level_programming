@@ -2,7 +2,7 @@
  
 int main () { 
  
-	long long int number=600851475143, large_factor=0, i=2; 
+	long long int number=612852475143, large_factor=0, i=2; 
  
 	while (number!=1) { 
 		if (number%i==0) { 
