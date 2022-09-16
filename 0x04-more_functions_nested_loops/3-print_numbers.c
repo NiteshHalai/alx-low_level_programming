@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
-*main - Entry point
+*print_numbers - Entry point
 *Description: 'prints numbers 1 to 9'
-*Return: 0
+*Return: 0123456789
 */
 void print_numbers(void)
 {
