@@ -1,19 +1,19 @@
-#include"main.h"
-/**
-* print_number - Entry point
-*
-* Description: prints number
-*
-* Return: 0
-*/
-void print_number(int n)
+/* C program to print a long int number
+ using putchar() only*/
+#include <stdio.h>
+ 
+void print_number(int n);
 {
-int mod;
-while (n > 0)
-{
-mod = n % 10;
-_putchar(mod);
-n = n/10;
-}
-_putchar('\n');
+
+    if (n < 0) {
+        putchar('-');
+        n = -n;
+    }
+ 
+
+    if (n/10)
+        print(n/10);
+ 
+
+    putchar(n%10 + '0');
 }
