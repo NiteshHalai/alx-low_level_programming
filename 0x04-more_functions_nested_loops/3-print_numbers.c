@@ -1,14 +1,4 @@
 #include"main.h"
-/**
-* print_numbers - Entry point
-*
-*
-* Return: numbers
-*/
-void print_numbers(void);
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 
 /**
 *main - Entry point
