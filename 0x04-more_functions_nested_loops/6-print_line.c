@@ -10,8 +10,9 @@ void print_line(int n)
 int a;
 int q = '_';
 {
-for (a = 0; a <= n; ++a)
-putchar(q);
+for (a = 0; a < n; ++a)
+_putchar(q);
 }
-putchar('\n');
+
+_putchar('\n');
 }
