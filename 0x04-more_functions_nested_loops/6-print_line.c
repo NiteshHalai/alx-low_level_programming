@@ -2,7 +2,7 @@
 
 /**
 *print_line - Entry point
-@n: checks input of function
+*@n: checks input of function
 *Description: 'prints line'
 */
 void print_line(int n)
