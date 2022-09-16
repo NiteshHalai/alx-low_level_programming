@@ -1,29 +1,18 @@
-#include<iostream> 
-#include<cmath> 
-using namespace std; 
+#include <stdio.h> 
  
-void LargestPrimeFactor(long int n) 
-{ 
-  while(n%2==0) 
-  { 
-    cout<<2<<" "; 
-    n/=2; 
-  } 
-   
-  for(int i=3;i<=sqrt(n);i=i+2) 
-  { 
-    while(n%i==0) 
-    { 
-      cout<<i<<" "; 
-      n/=i; 
-    } 
-  } 
-   
-  if(n>2) 
-    cout<<n<<" "; 
-} 
+int main () { 
  
-int main() 
-{ 
-  LargestPrimeFactor(612852475143); 
+	long long int number=600851475143, large_factor=0, i=2; 
+ 
+	while (number!=1) { 
+		if (number%i==0) { 
+			while (number%i==0) {
+				number/=i; 
+			} 
+			large_factor=i; 
+		} 
+		i++; 
+	} 
+	printf ("%lld\n\n", large_factor); 
+	return 0; 
 } 
