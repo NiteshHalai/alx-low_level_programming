@@ -1,3 +1,5 @@
+#include <ctype.h>
+
 int _atoi(char *s)
 {
     int i, sum = 0;
