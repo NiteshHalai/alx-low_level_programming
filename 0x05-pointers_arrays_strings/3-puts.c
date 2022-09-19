@@ -11,12 +11,12 @@ void _puts(char *str)
     int i;
     for(i=0;    ;i++)
     {
-        if(string[i]=='\0')
+        if(*str[i]=='\0')
         {
             printf("\n");
             break;
         }
-        printf("%c",string[i]);
+        printf("%c",*str);
 
     }
 
