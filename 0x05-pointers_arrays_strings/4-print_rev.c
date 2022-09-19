@@ -9,16 +9,15 @@
 void print_rev(char *s);
 
 {  
-    // declare variable  
-    int i, len, temp;  
-    len = strlen(s); 
+int i, len, temp;  
+len = strlen(s); 
       
   
-    for (i = 0; i < len/2; i++)  
-    {  
+for (i = 0; i < len/2; i++)  
+{  
 
-        temp = str1[i];  
-        s[i] = s[len - i - 1];  
-        s[len - i - 1] = temp;  
-    }  
+temp = str1[i];  
+s[i] = s[len - i - 1];  
+s[len - i - 1] = temp;  
+}  
 }  
