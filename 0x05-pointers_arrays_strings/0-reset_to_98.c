@@ -5,7 +5,7 @@
 *
 * @n: input function argument
 *
-* Return: 98
+* Return: outpuy
 */
 
 void reset_to_98(int *n)
