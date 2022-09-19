@@ -10,7 +10,7 @@ void _puts(char *str)
 
 {
    int i = 0;
-   while(string[i])  
+   while(str[i])  
     {
         if( putchar(str[i]) == EOF)
         { 
