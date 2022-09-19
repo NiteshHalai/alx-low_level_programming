@@ -12,6 +12,5 @@ void reset_to_98(int *n)
 {
 int var = 98;
 n = &var;
-int foo = n;
-foo * 1;
+printf("\n", *n)
 }
