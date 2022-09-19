@@ -9,5 +9,5 @@
 void print_rev(char *s)
 {  
 char s[40];
-s = strrev(s));  
+strrev(s));  
 }  
