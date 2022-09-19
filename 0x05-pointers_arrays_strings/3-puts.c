@@ -8,11 +8,17 @@
 */
 void _puts(char *str)
 {
-const char to_print = *str;
-unsigned long int i;
-for (i = 0; i < strlen(to_print); ++i)
-{
-putchar(to_print[i]);
+    int i;
+    for(i=0;    ;i++)
+    {
+        if(string[i]=='\0')
+        {
+            printf("\n");
+            break;
+        }
+        printf("%c",string[i]);
+
+    }
+
 }
-putchar('\n');
 }
