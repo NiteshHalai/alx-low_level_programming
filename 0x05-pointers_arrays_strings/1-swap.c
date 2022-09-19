@@ -3,7 +3,9 @@
 /**
 * swap_int - swaps variable values
 *
-* @n: input function argument
+* @a: input function argument
+*
+* @b: input function argument
 *
 * Return: outpuy
 */
