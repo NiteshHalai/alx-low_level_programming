@@ -9,18 +9,16 @@
 void _puts(char *str)
 
 {
-   int i = 0;
-   while(str[i])  
+    int i;
+    for(i=0;    ;i++)
     {
-        if( putchar(str[i]) == EOF)
-        { 
-            return EOF;
+        if(str[i]=='\0')
+        {
+            printf("\n");
+            break;
         }
-        i++;
+        printf("%c",str[i]);
+
     }
-   if(putchar('\n') == EOF)
-   {
-       return EOF;
-   }
-   return 1; 
+
 }
