@@ -17,6 +17,6 @@ if (str[i] == '\0')
 printf("\n");
 break;
 }
-printf("%c",str[i]);
+printf("%c", str[i]);
 }
 }
