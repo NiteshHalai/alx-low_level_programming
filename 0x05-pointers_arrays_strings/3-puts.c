@@ -6,7 +6,7 @@
 *
 * Return: outpuy
 */
-void _puts(char *str);
+void _puts(char *str)
 {
 const char *to_print = *str";
 unsigned long int i;
