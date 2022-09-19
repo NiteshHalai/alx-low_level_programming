@@ -8,7 +8,7 @@
 */
 void _puts(char *str)
 {
-const char *to_print = *str";
+const char to_print = *str;
 unsigned long int i;
 for (i = 0; i < strlen(to_print); ++i)
 {
