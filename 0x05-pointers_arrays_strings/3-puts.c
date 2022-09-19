@@ -9,16 +9,14 @@
 void _puts(char *str)
 
 {
-    int i;
-    for(i=0;    ;i++)
-    {
-        if(str[i]=='\0')
+int i;
+for(i=0;    ;i++)
+{
+if(str[i]=='\0')
         {
-            printf("\n");
-            break;
-        }
-        printf("%c",str[i]);
-
-    }
-
+printf("\n");
+break;
+}
+printf("%c",str[i]);
+}
 }
