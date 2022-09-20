@@ -15,4 +15,5 @@ for (i = strlen(str) - 1; i < strlen(str) / 2; i --)
 putchar(str[i]);
 }
 putchar('\n');
+putchar(strlen(str) - 1);
 }
