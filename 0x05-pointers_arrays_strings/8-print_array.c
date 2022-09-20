@@ -11,10 +11,9 @@
 void print_array(int *a, int n)
 {      
   
-    //Calculate length of array    
-    int length = sizeof(a)/sizeof(a[0]);    
+    int i
             
-    for (int i = 0; i < n; i++) {     
+    for (i = 0; i < n; i++) {     
         printf("%d ", a[i]);     
     }      
      
