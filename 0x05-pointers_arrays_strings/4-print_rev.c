@@ -25,5 +25,7 @@ ch = *end_ptr;
 
 begin_ptr++;
 end_ptr--;
+  
+str = s
 }
 }
