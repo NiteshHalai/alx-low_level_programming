@@ -9,9 +9,9 @@
 *         otherwise 0
 */
 
-int print_last_digit(int)
+int print_last_digit(int i)
 {
 int n;
-n = int%10;
+n = i%10;
 return(n)
 }
