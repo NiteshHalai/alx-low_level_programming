@@ -7,7 +7,7 @@
 * Return: outpuy
 */
 
-void puts2(const char *str)
+void puts2(char *str)
 {
 unsigned long int i;
 for (i = 0; i < strlen(*str); i+=2)
