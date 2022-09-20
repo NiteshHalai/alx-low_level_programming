@@ -1,8 +1,8 @@
 #include"main.h"
 /**
-* print_rev - reverse string
+* puts2 - print every other character
 *
-* @s: input function argument
+* @str: input function argument
 *
 * Return: outpuy
 */
