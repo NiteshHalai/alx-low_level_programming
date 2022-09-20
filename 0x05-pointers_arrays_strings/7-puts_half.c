@@ -11,7 +11,7 @@ void puts_half(char *str)
 {
 unsigned long int i;
  
-for (i = strlen(str) -1; i > strlen(str) / 2; i --)
+for (i = strlen(str) / 2; i => strlen(str) / 2; i ++)
 {
 putchar(str[i]);
 }
