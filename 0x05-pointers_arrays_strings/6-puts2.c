@@ -13,6 +13,6 @@ unsigned long int i;
 for (i = 0; i < strlen(str); i += 2)
 {
 putchar(str[i]);
-putchar("\n");
+putchar('\n');
 }
 }
