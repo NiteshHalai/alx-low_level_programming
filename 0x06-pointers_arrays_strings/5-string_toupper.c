@@ -20,3 +20,4 @@ char *string_toupper(char *c)
         }
         i++;
      }
+}
