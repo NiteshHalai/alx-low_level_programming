@@ -8,15 +8,15 @@
 *
 * Return: outpuy
 */
-char *string_toupper(char *c)
+char *string_toupper(char *s)
  {
      int i = 0;
 
-     while( c[i] != '\0' ) 
+     while( s[i] != '\0' ) 
      {
-        if( c[i] >= 'a' && c[i] <= 'z' )
+        if( s[i] >= 'a' && s[i] <= 'z' )
         {
-           c[i] = c[i] - 32;
+           s[i] = s[i] - 32;
         }
         i++;
      }
