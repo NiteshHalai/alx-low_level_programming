@@ -3,7 +3,7 @@
 /**
 * string_toupper - upper case
 *
-* @c: input function argument
+* @s: input function argument
 * 
 *
 * Return: outpuy
