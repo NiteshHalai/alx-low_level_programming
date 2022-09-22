@@ -9,16 +9,12 @@
 * Return: outpuy
 */
 char *cap_string(char *s)
+ int i
  {
-     int i = 0;
- while( s[i] != '\0' )
- {
-        if( s[i] >= 'a' && s[i] <= 'z' )
-        {
-           s[i] = s[i] - 32;
-        }
-        i++;
- }
- return  (s);
-     
+   for(i=0; s[i]!='\0'; i++)
+   {
+      // convert lowercase character
+      s[i] = toupper(s[i]);
+      }
+   return (s);
 }
