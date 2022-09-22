@@ -16,7 +16,7 @@ int temp;
 for (i = 0; i < (n/2); i++)
 {
 temp = a[i];
-a[i] = a[a - -1];
-q[n - i -1] = temp;
+a[i] = a[n-i-1];
+a[n - i -1] = temp;
 }
 }
