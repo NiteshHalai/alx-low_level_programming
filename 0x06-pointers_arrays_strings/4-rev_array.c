@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-* print_array - reverse array
+* reverse_array - reverse array
 *
 * @a: input function argument
 * @n: input function argument
@@ -9,7 +9,7 @@
 *
 * Return: outpuy
 */
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 int i;
 int temp;
