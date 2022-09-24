@@ -12,8 +12,9 @@
 char *rot13(char *s)
  
 {
-char* current_char = result;
+
 char* result = malloc(strlen(s));
+char* current_char = result;
 
 {
     if(s == NULL)
