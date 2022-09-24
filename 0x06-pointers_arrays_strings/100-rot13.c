@@ -11,7 +11,7 @@
 
 char *rot13(char *s)
  
-char* result = malloc(strlen(s));
+
 char* current_char = result;
 {
     if(s == NULL){
@@ -20,6 +20,7 @@ char* current_char = result;
     
     if(result != NULL){
       strcpy(result, s);
+ char* result = malloc(strlen(s));
       
       
       while(*current_char != '\0'){
