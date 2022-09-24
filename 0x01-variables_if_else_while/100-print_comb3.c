@@ -11,14 +11,14 @@ int main(void)
 {
 int i;
 int j;
-for (i='0'; i<='3';i++)
-  {
-    for (j='0'; (j <= '3') && (j >= '2') ; j++)
-    {
-      putchar(i);
-      putchar(j);
-    }
-  }
+for (i = '0' ; i <= '3' ; i++)
+{
+for (j = '0' ; (j <= '3') && (j >= '2') ; j++)
+{
+putchar(i);
+putchar(j);
+}
+}
 
 putchar('\n');
 
