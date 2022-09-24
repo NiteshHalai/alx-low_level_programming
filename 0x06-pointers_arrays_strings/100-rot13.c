@@ -10,16 +10,17 @@
 
 
 char *rot13(char *s)
+ 
+char* result = malloc(strlen(s));
+char* current_char = result;
 {
     if(s == NULL){
       return NULL;
     }
-  
-    char* result = malloc(strlen(s));
     
     if(result != NULL){
       strcpy(result, s);
-      char* current_char = result;
+      
       
       while(*current_char != '\0'){
         if((*current_char >= 97 && *current_char <= 122) || (*current_char >= 65 && *current_char <= 90)){
