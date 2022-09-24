@@ -15,6 +15,5 @@ while (n <= 9)
 putchar(n);
 n++;
 }
-printf("\n");
-putchar (n);
+putchar(\n);
 }
