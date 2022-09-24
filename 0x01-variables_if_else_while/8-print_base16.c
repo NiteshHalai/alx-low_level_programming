@@ -9,13 +9,18 @@
 */
 int main(void)
 {
-int n = 0;
-while (n <= 15)
+int n = '0';
+while (n <= '9')
 {
-printf("%c", n);
+putchar(n);
 n++;
 }
-printf("\n");
+int c = 'a';
+while (c <= 'f')
+{
+putchar(c);
+c++;
+}
+putchar('\n');
 
 return (0);
-}
