@@ -1,8 +1,9 @@
 /**
-* _strcat -  locates a character in a string
+* _memcpy -  locates a character in a string
 *
 * @dest: input function argument
 * @src: input function argument
+* @n: input function argument
 *
 * Return: outpuy
 */
