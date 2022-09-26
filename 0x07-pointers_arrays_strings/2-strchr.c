@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-* _strcat -  locates a character in a string
+* _strchr -  locates a character in a string
 *
 * @s: input function argument
 * @c: input function argument
