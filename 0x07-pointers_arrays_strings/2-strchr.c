@@ -17,6 +17,6 @@ printf("null\n");
 return NULL;
             }
 }
-printf("%s", s);
+
 return (char *)s;
 }
