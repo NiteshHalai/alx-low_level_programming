@@ -10,9 +10,6 @@
 
 int _sqrt_recursion(int n)
 {
-int sqrtSearch(int low, int high, int N)
-{
-
 int low = 1;
 int high = n;
 int mid;
@@ -32,5 +29,4 @@ int mid;
         }
     }
     return low;
-}
 }
