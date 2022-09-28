@@ -3,8 +3,7 @@
 /**
 * is_prime_number - check if number is prime
 *
-* @dest: input function argument
-* @src: input function argument
+* @n: input function argument
 *
 * Return: output
 */
