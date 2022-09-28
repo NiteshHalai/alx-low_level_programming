@@ -16,16 +16,16 @@ int mid;
 
     if (low <= high) {
         int mid = (low + high) / 2;
-        if ((mid * mid <= N)
-            && ((mid + 1) * (mid + 1) > N)) {
+        if ((mid * mid <= n)
+            && ((mid + 1) * (mid + 1) > n)) {
             return mid;
         }
 
-        else if (mid * mid < N) {
-            return _sqrt_recursion(mid + 1, high, N);
+        else if (mid * mid < n) {
+            return _sqrt_recursion(mid + 1, high, n);
         }
         else {
-            return _sqrt_recursion(low, mid - 1, N);
+            return _sqrt_recursion(low, mid - 1, n);
         }
     }
     return low;
