@@ -10,7 +10,7 @@
 
 void _print_rev_recursion(char *s)
 {
-    if(s.size() == 0)
+    if(s->size() == 0)
     {
         return;
     }
