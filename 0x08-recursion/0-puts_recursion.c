@@ -10,11 +10,8 @@
 
 void _puts_recursion(char *s)
 {
-char *to_print = s;
-unsigned long int i;
-for (i = 0; i < strlen(to_print); ++i)
-{
-putchar(to_print[i]);
-}
-putchar('\n');
+ if(*s=='\0')//null character
+ return ;
+ printf("%c",*s);
+ PrintString(s+1);
 }
