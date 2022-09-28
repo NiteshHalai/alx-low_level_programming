@@ -8,7 +8,7 @@
 * Return: output
 */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 char *to_print = s;
 unsigned long int i;
