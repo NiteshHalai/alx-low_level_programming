@@ -25,6 +25,6 @@ int is_prime_number(int n)
     else
        {
          i = i -1; 
-         checkForPrime(n);
+         is_prime_number(n);
       }
 
