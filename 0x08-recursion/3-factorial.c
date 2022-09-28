@@ -1,7 +1,7 @@
 /**
 * factorial -  factorial of n
 *
-* n: input function argument
+* @n: input function argument
 *
 * Return: output
 */
@@ -12,5 +12,5 @@ if (n == 0)
 {
 return (1);
 }
-return ( n * factorial (n - 1));
+return (n * factorial(n - 1));
 }
