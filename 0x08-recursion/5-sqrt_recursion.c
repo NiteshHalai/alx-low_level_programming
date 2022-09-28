@@ -18,7 +18,6 @@ double tempval = n/2;
         {
             tempval /= 2;
         }
-        //otherwise it's between x and n
         if (tempval * tempval < n)
         {
             tempval += (n - tempval);
