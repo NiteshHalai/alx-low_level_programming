@@ -1,5 +1,5 @@
 /**
-* factorial -  locates a character in a string
+* factorial -  factorial of n
 *
 * n: input function argument
 *
