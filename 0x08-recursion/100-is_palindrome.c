@@ -8,7 +8,7 @@
 * Return: output
 */
 
-int is_palindrome(const char *s)
+int is_palindrome(char *s)
 {
     static int i,c=0;
 	const int n;
