@@ -11,8 +11,7 @@
 int is_palindrome(char *s)
 {
     static int i,c=0;
-	const int n;
-	n=strlen(s);
+	const int n=strlen(s);
     if(i<n/2)
     {
          if(s[i]==s[n-i-1])
@@ -26,4 +25,5 @@ int is_palindrome(char *s)
         return 1;
         else
         return 0;
+}
 }
