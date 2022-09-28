@@ -10,7 +10,7 @@
 
 int is_palindrome(char *s)
 {
-    static int i,c=0,n=strlen(s);
+    static int i,c=0,n=strlen(*s);
     if(i<n/2)
     {
          if(s[i]==s[n-i-1])
