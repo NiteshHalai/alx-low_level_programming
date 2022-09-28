@@ -11,18 +11,19 @@
 
 int _pow_recursion(int x, int y)
 {
-    
-    int store;
-    
-    if(y==0){return 1;}
-    
 
-    store = _pow_recursion(x,y/2);
+int store;
     
-    if(y%2==0)
-    return (store*store);
-    else
-    {
-        return (store*store*x);
-    }
+if(y == 0)
+{
+return 1;
+}
+store = _pow_recursion(x,y/2);
+
+if(y%2==0)
+return (store * store);
+else
+{
+return (store * store * x);
+}
 }
