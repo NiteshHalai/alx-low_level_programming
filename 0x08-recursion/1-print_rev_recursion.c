@@ -10,10 +10,9 @@
 
 void _print_rev_recursion(char *s)
 {
-    if(s->size() == 0)
-    {
-        return;
-    }
-    _print_rev_recursion(s.substr(1));
-    cout << s[0];
+  if (*s != '\0')
+  {
+    print_reverse(s + 1);
+    printf("%c", *s);
+  }
 }
