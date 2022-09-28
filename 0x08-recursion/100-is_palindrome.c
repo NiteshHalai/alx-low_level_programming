@@ -16,7 +16,7 @@ int is_palindrome(char *s)
          if(s[i]==s[n-i-1])
     	c++;
     	i++;
-    	checkpalindrome(s);
+    	is_palindrome(s);
 	}
 	else
 	{
