@@ -19,12 +19,13 @@ int is_prime_number(int n)
     }
     else if(n %i==0)
     {
-         return n;
+         return 0;
     }     
     else
        {
          i = i -1; 
          is_prime_number(n);
+        return n
       }
 
 }
