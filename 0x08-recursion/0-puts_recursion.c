@@ -8,9 +8,9 @@
 * Return: output
 */
 
-void _puts_recursion(char *s)
+void _puts_recursion(char *s);
 {
-char *to_print = s
+char *to_print = s;
 unsigned long int i;
 for (i = 0; i < strlen(to_print); ++i)
 {
