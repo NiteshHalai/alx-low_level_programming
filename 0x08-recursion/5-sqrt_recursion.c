@@ -10,23 +10,21 @@
 
 int _sqrt_recursion(int n)
 {
-int low = 1;
-int high = n;
-int mid;
-
-    if (low <= high) {
-        int mid = (low + high) / 2;
-        if ((mid * mid <= n)
-            && ((mid + 1) * (mid + 1) > n)) {
-            return mid;
+double tempval = n/2;
+     
+    do
+    {
+        if ((tempval*tempval) > n)
+        {
+            tempval /= 2;
         }
-
-        else if (mid * mid < n) {
-            return _sqrt_recursion(mid + 1, high, n);
+        //otherwise it's between x and n
+        if (tempval * tempval < n)
+        {
+            tempval += (n - tempval);
         }
-        else {
-            return _sqrt_recursion(low, mid - 1, n);
-        }
-    }
-    return low;
+    } while (((n - tempval) >= .001) || ((tempval - n) >= .001));
+     
+    return tempval;
 }
+
