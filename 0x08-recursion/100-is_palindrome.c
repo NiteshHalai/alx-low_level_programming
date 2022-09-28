@@ -10,7 +10,7 @@
 
 int is_palindrome(char *s)
 {
-    static int i,c=0;
+int i,c=0;
 const int n=strlen(s);
   if(i<n/2)
     {
