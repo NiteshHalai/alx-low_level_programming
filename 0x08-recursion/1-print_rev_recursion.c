@@ -10,10 +10,10 @@
 
 void _print_rev_recursion(char *s)
 {
-    if(str.size() == 0)
+    if(s.size() == 0)
     {
         return;
     }
-    _print_rev_recursion(str.substr(1));
-    cout << str[0];
+    _print_rev_recursion(s.substr(1));
+    cout << s[0];
 }
