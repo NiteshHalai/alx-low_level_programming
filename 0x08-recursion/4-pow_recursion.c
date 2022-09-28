@@ -20,7 +20,7 @@ return (1);
 }
 store = _pow_recursion(x, y / 2);
 
-if(y % 2 == 0)
+if (y % 2 == 0)
 return (store *store);
 else
 {
