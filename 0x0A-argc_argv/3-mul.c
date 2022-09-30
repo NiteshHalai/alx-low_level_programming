@@ -36,6 +36,8 @@ int main( int argc, char *argv[] )
 
 
     printf( "%ld\n", result );
+    
+    (void)argv;
 
     return EXIT_SUCCESS;
 }
