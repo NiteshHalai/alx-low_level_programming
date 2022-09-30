@@ -2,7 +2,8 @@
 
 /**
 *main - Entry point
-*Description: This proggrame prints all of arguments
+* @argc: input function argument
+* @argv: input function argument
 *Return: 0
 */
 
