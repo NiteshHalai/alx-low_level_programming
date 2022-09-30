@@ -5,7 +5,7 @@
 int main( int argc, char *argv[] )
 {
     long result = 1;
-    int i
+    int i;
 
     for (i = 1; i < argc; i++ )
     {
