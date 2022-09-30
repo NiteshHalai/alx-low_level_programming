@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <errno.h>
 
+/**
+* main - Entry point
+* @argc: input function argument
+* @argv: input function argument
+* Return: 0
+*/
+
 int main( int argc, char *argv[] )
 {
     long result = 1;
