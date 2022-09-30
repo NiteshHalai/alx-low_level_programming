@@ -5,8 +5,9 @@
 int main( int argc, char *argv[] )
 {
     long result = 1;
+    int i
 
-    for ( int i = 1; i < argc; i++ )
+    for (i = 1; i < argc; i++ )
     {
         long num;
         char *p;
