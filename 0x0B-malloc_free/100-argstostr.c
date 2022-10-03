@@ -11,6 +11,11 @@
 
 char *argstostr(int ac, char **av)
 {
+    
+    unsigned int i;
+    size_t len = 0;
+    char *_all_args, *all_args;
+    
     for(i=1; i<ac; i++) {
         len += strlen(av[i]);
     }
