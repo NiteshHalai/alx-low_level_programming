@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
     }
     *(_all_args-1) = 0;
 
-    printf("All %d args: '%s'\n", argc, all_args);
+    printf("All %d args: '%s'\n", ac, all_args);
 
     free(all_args);
 
