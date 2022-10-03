@@ -12,7 +12,7 @@
 char *argstostr(int ac, char **av)
 {
     
-    unsigned int i;
+    int i;
     size_t len = 0;
     char *_all_args, *all_args;
     
