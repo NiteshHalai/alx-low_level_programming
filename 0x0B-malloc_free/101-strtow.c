@@ -11,7 +11,7 @@
 char **strtow(char *str)
 {
     char newString[10][10]; 
-    int i,j,ctr;
+    long unsigned int i,j,ctr;
  
     fgets(str, sizeof str, stdin);	
  
