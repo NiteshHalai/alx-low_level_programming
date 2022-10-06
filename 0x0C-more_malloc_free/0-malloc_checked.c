@@ -2,8 +2,8 @@
 
 void *malloc_checked(unsigned int b)
 {
-  int* ptr;
-  ptr = (int*) malloc(sizeof(b));
+  void* ptr;
+  ptr = (void*) malloc(sizeof(b));
   return (ptr);
   
 }
