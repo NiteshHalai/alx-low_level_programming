@@ -3,7 +3,7 @@
 /**
 * malloc_checked - Description
 *
-* bn: input function argument
+* @b: input function argument
 *
 * Return: output
 */
