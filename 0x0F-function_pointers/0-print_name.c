@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "function_pointers.h"
 
 /**
 * print_name -  description
@@ -10,8 +9,11 @@
 * Return: output
 */
 
+
+
 void print_name(char *name, void (*f)(char *))
 {
-
+printf("%s", name);
 
 }
+
