@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "dog.h"
 
 /**
-* init_dog -  description
+* print_name -  description
 *
-* @d: input function argument
+* @f: input function argument
 * @name: input function argument
-* @age: input function argument
-* @owner: input function argument
 *
 * Return: output
 */
