@@ -18,14 +18,6 @@ int i;
 for (i = 0; i < size; i++)
 while (cmp(array[i]) > 0)
 {
-if (i == size)
-{
-printf("%d", size);
-return (-1);
-}
-else
-{
 return (i);
-}
 }
 }
