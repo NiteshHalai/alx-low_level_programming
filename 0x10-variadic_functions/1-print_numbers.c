@@ -21,11 +21,23 @@ va_list args;
 va_start(args, n);
 
 sep = "";
+
+if (separator == NULL)
+{
 for (i = 0; i < n; i++)
 {
 int value = va_arg(args, int);
 printf("%s%d", sep, value);
+}
+}
+else
+{
+ for (i = 0; i < n; i++)
+{
+int value = va_arg(args, int);
+printf("%s%d", sep, value);
 sep = separator;
+} 
 }
 printf("\n");
 
