@@ -26,7 +26,14 @@ if (separator == NULL)
 for (i = 0; i < n; i++)
 {
 const char *value = va_arg(args, const char*);
+if (value == NULL)
+{
+printf("%s(nil)", sep);
+}
+else
+{
 printf("%s%s", sep, value);
+}
 }
 }
 else
@@ -34,11 +41,17 @@ else
 for (i = 0; i < n; i++)
 {
 const char *value = va_arg(args, const char*);
+if (value == NULL)
+{
+printf("%s(nil)", sep);
+}
+else
+{
 printf("%s%s", sep, value);
+}
 sep = separator;
 }
 }
 printf("\n");
 
 }
-
