@@ -23,7 +23,7 @@ va_start(args, n);
 sep = "";
 for (i = 0; i < n; i++)
 {
-const char value = va_arg(args, const char*);
+const char* value = va_arg(args, const char*);
 printf("%s%s", sep, value);
 sep = separator;
 }
