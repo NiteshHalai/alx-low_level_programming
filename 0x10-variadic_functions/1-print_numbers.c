@@ -24,7 +24,7 @@ sep = "";
 for (i = 0; i < n; i++)
 {
 int *value = va_arg(args, int);
-printf("%s%s", sep, value);
+printf("%s%d", sep, value);
 sep = separator;
 }
 printf("\n");
