@@ -32,12 +32,12 @@ printf("%s%d", sep, value);
 }
 else
 {
- for (i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 int value = va_arg(args, int);
 printf("%s%d", sep, value);
 sep = separator;
-} 
+}
 }
 printf("\n");
 
