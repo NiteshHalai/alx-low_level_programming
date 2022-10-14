@@ -11,18 +11,6 @@
 * Return: output
 */
 
-#include <stdarg.h>
-#include <stdio.h>
-
-/**
-* print_numbers -  description
-*
-* @separator: input function argument
-* @n: input function argument
-*
-* Return: output
-*/
-
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 const char *sep;
