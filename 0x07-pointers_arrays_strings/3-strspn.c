@@ -11,23 +11,13 @@
 */
 
 unsigned int _strspn(char *s, char *accept)
-{
-size_t i;
-char ch[256] = {0};
-
-
-unsigned char accept = (unsigned char)accept;
-
-
-for (i = 0; i < strlen(accept); i++) {
-ch[accept[i]] = 1;
+int i,k,counter=0;
+for(i=0;s[i]!='\0';i++){
+ if(counter != i) break;
+ for(k=0;accept[k]!='\0';k++){
+  if(s[i]==accept[k])
+   counter++;
+ }
 }
-
-for (i = 0; i < strlen(s); i++) {
-if (ch[s[i]] == 0) {
-break;
-}
-}
-
-return (i);
+ return counter;
 }
