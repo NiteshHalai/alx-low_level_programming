@@ -11,12 +11,14 @@
 
 char *_strchr(char *s, char c)
 {
-while (*s != c) {
-if (! *s++) {
+while (*s != c)
+{
+if (!*s++)
+{
 printf("null\n");
-return NULL;
-            }
+return (NULL);
+}
 }
 
-return (char *)s;
+return ((char *)s);
 }
