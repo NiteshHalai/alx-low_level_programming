@@ -15,6 +15,10 @@ unsigned int _strspn(char *s, char *accept)
 size_t i;
 char ch[256] = {0};
 
+
+unsigned char accept = (unsigned char)accept;
+
+
 for (i = 0; i < strlen(accept); i++) {
 ch[accept[i]] = 1;
 }
