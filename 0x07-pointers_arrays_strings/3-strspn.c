@@ -1,6 +1,14 @@
-
-
 #include <string.h>
+#include"main.h"
+
+/**
+* _strspn -  function description
+*
+* @s: input function argument
+* @accept: input function argument
+*
+* Return: output
+*/
 
 unsigned int _strspn(char *s, char *accept)
 {
