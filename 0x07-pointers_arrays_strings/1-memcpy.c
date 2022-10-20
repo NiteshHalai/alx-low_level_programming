@@ -19,6 +19,6 @@ char *cdest = (char *)dest;
 
 for (i = 0; i < n; i++)
 cdest[i] = csrc[i];
-    
+
 return (dest);
 }
