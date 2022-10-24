@@ -1,7 +1,7 @@
 #include"lists.h"
 
 /**
-* print_list -  description
+* list_len-  description
 *
 * @h: input function argument
 *
