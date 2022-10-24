@@ -24,12 +24,13 @@ newNode->len = strlen(str);
 
 newNode->next = NULL;
 
-if(*head == NULL)
+if (*head == NULL)
 *head = newNode;
-else{
+else
+{
 lastNode = *head;
-   
-while(lastNode->next != NULL)
+
+while (lastNode->next != NULL)
 {
 lastNode = lastNode->next;
 }
