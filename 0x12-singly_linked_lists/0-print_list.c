@@ -20,8 +20,8 @@ count = 0;
 while(tempPointer != null) {
   printf("%s ", tempPointer->value);
   tempPointer = tempPointer->next;
-  tempPointer = tempPointer->next
-  count++
+  tempPointer = tempPointer->next;
+  count++;
 }
 
 return (count);
