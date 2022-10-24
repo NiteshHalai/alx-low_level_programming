@@ -16,11 +16,13 @@ size_t count;
 count = 0;
 
 while(h != NULL) {
-  if( h->str != NULL){
-  printf("[%d] %s\n", h->len, h->str);
+  if( h->str != NULL)
+  {
+    printf("[%d] %s\n", h->len, h->str);
   }
-  else if {( h->str == NULL){
-  printf("[0] (nil)");
+  else if ( h->str == NULL)
+  {
+    printf("[0] (nil)");
   }
   h = h->next;
     
