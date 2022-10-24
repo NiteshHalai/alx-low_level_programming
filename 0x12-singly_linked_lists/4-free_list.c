@@ -16,6 +16,6 @@ while (head != NULL)
 {
 t = head->next;
 free(t);
-head = next;
+head = t;
 }
 }
