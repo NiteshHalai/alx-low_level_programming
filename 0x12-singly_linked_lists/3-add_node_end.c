@@ -22,16 +22,16 @@ newNode->len = strlen(str);
 
 newNode->next = NULL;
 
-    if(*head == NULL)
-         *head = newNode;
-    {
-        list_t *lastNode = *head;
-        
-        while(lastNode->next != NULL)
-        {
-            lastNode = lastNode->next;
-        }
-        lastNode->next = newNode;
-
+if(*head == NULL)
+*head = newNode;
+else{
+list_t *lastNode = *head;
+   
+while(lastNode->next != NULL)
+{
+lastNode = lastNode->next;
+}
+lastNode->next = newNode;
+}
 return (lastNode);
 }
