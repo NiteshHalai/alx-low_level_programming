@@ -14,8 +14,8 @@ size_t print_list(const list_t *h)
 list_t tempPointer;
 size_t count;
 
-tempPointer = h
-count = 0
+tempPointer = h;
+count = 0;
 
 while(tempPointer != null) {
   printf("%s ", tempPointer->value);
