@@ -15,7 +15,7 @@ size_t count;
 
 count = 0;
 
-while(h != null) {
+while(h != NULL) {
   printf("%s ", h->str);
   h = h->next;
   count++;
