@@ -33,5 +33,5 @@ newNode->next = NULL;
         }
         lastNode->next = newNode;
 
-return (*lastNode);
+return (lastNode);
 }
