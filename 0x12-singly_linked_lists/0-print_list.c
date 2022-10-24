@@ -22,7 +22,7 @@ while(h != NULL) {
   }
   else if ( h->str == NULL)
   {
-    printf("[0] (nil)");
+    printf("[0] (nil)\n");
   }
   h = h->next;
     
