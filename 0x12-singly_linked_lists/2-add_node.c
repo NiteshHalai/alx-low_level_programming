@@ -18,4 +18,9 @@ list_t *newNode = malloc(sizeof(list_t));
       newNode->str = str;
       newNode->len = strlen(str);
 
+      newNode->next = *head;
+      
+      *head = newNode;
+      
+      return(newNode);
 }
