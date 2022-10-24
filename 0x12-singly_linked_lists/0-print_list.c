@@ -3,7 +3,7 @@
 /**
 * print_list -  description
 *
-* @list_t: input function argument
+* @h: input function argument
 *
 * Return: output
 */
@@ -16,18 +16,17 @@ size_t count;
 count = 0;
 
 while(h != NULL) {
-  if( h->str != NULL)
-  {
-    printf("[%d] %s\n", h->len, h->str);
-  }
-  else if ( h->str == NULL)
-  {
-    printf("[0] (nil)\n");
-  }
-  h = h->next;
-    
-  count++;
-  
+if( h->str != NULL)
+{
+printf("[%d] %s\n", h->len, h->str);
+}
+else if ( h->str == NULL)
+{
+printf("[0] (nil)\n");
+}
+h = h->next;
+
+count++;
 }
 
 return (count);
