@@ -16,8 +16,7 @@ count = 0;
 
 while (h != NULL)
 {
-printf("%i\n", h->int);
-else if (h->int == NULL)
+printf("%d\n", h->int);
 h = h->next;
 count++;
 }
