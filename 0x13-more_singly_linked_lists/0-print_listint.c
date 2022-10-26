@@ -16,16 +16,9 @@ count = 0;
 
 while (h != NULL)
 {
-if (h->int != NULL)
-{
 printf("%i\n", h->int);
-}
 else if (h->int == NULL)
-{
-printf("(nil)\n");
-}
 h = h->next;
-
 count++;
 }
 
