@@ -11,7 +11,7 @@
 
 void free_list(list_t *head)
 {
-    list_t *pNode = Head, *pNext;
+    list_t *pNode = head, *pNext;
 
     while (NULL != pNode)
     {
