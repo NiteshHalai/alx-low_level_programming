@@ -14,7 +14,7 @@ size_t count;
 
 count = 0;
 
-while (h != NULL)
+while (h)
 {
 printf("%d\n", h->int);
 h = h->next;
