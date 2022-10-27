@@ -17,8 +17,6 @@ list_t *newNode = malloc(sizeof(listint_t));
 if (!newNode)
 return (NULL);
 
-newNode->n = strdup(n);
-
 newNode->next = *head;
 
 *head = newNode;
