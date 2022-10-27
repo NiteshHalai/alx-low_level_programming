@@ -10,7 +10,6 @@
 */
 
 int pop_listint(listint_t **head)
-int pop(struct Node** headRef)
 {
     
     if (*head == NULL) {
