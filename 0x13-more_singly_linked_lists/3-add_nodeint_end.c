@@ -5,7 +5,7 @@
 * add_nodeint_end -  description
 *
 * @head: input function argument
-* @str: input function argument
+* @n: input function argument
 *
 * Return: output
 */
