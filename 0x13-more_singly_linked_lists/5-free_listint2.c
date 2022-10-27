@@ -17,7 +17,7 @@ while (*pNode != NULL)
 {
 pNext = (*pNode)->next;
 free(*pNode);
-*pNode = pNext;
+pNode = pNext;
 }
 
 }
