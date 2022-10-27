@@ -15,7 +15,7 @@ listint_t *pNode = *head, *pNext;
 
 while (pNode != NULL)
 {
-pNext = (*pNode)->next;
+pNext = (pNode)->next;
 free(pNode);
 pNode = pNext;
 }
