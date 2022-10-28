@@ -19,5 +19,5 @@ pNext = (pNode)->next;
 free(pNode);
 pNode = pNext;
 }
-
+*head = NULL;
 }
