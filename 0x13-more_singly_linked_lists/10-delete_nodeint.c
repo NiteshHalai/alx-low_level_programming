@@ -26,7 +26,7 @@ del = temp->next;
 if (index == 0)
 {
 *head = temp->next;
-free (temp);
+free(temp);
 return (1);
 }
 else
@@ -37,7 +37,7 @@ temp = temp->next;
 
 temp->next = temp->next->next;
 del->next = NULL;
-free (del);
+free(del);
 }
 return (1);
 }
