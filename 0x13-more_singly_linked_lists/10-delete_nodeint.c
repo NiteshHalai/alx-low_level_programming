@@ -7,8 +7,6 @@
 * @head: input function argument
 * @index: input function argument
 *
-* gcc -Wall -pedantic -Werror -Wextra -std=gnu89 10-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 10-delete_nodeint.c -o k
-*
 * Return: output
 */
 
@@ -20,26 +18,26 @@ listint_t *temp = *head;
 unsigned int i;
 listint_t *del;
 
-if (*head == NULL) 
-return(-1); 
+if (*head == NULL)
+return (-1);
 
-del = temp->next; 
+del = temp->next;
 
 if (index == 0)
 {
 *head = temp->next;
-free(temp);
-return(1);
+free (temp);
+return (1);
 }
 else
 {
-for (i = 0; i < index - 1; i++) {
+for (i = 0; i < index - 1; i++)
 temp = temp->next;
-}
+
 
 temp->next = temp->next->next;
 del->next = NULL;
-free(del);
+free (del);
 }
-return(1);
+return (1);
 }
