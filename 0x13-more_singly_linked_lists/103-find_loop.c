@@ -28,10 +28,10 @@ break;
 slow = slow->next;
 fast = fast->next->next;
 }
- 
+
 if (slow != fast)
 return (NULL);
- 
+
 slow = head;
 while (slow != fast)
 {
