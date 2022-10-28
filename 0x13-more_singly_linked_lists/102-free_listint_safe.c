@@ -4,7 +4,7 @@
 /**
 * free_listint_safe -  description
 *
-* @head: input function argument
+* @h: input function argument
 *
 * Return: output
 */
