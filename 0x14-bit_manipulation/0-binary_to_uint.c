@@ -19,9 +19,8 @@ return (0);
 while (b[i] == '0' || b[i] == '1')
 {
 val <<= 1;
-printf("%i", b[i]);
 val += b[i]-'0';
 i++;
 }
-return val;
+return (val);
 }
