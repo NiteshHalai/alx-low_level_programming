@@ -28,4 +28,8 @@ for(i=15;i>=0;i--)
     
             printf("0");
     }
+    
+if (sum == 0)
+printf("0");
+
 }
