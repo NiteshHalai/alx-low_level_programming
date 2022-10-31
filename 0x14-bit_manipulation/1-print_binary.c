@@ -13,21 +13,21 @@ void print_binary(unsigned long int n)
 int i, k, andmask, sum;
 
 sum = 0;
-for(i = 15; i >= 0; i--)
+for (i = 15; i >= 0; i--)
 {
 andmask = 1 << i;
 k = n & andmask;
 
 
-if(k)
+if (k)
 {
-sum = sum+1;
+sum = sum + 1;
 printf("1");
 }
 else if (sum > 0)
 printf("0");
 }
-    
+
 if (sum == 0)
 printf("0");
 
