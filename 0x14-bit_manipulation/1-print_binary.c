@@ -24,7 +24,7 @@ for(i=15;i>=0;i--)
         sum = sum+1;
             printf("1");
     }
-    else if (sum > 1)
+    else if (sum > 0)
     
             printf("0");
     }
