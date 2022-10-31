@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-* get_bit -  description
+* set_bit -  description
 *
 * @index: input function argument
 * @n: input function argument
