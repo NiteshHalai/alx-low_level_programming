@@ -14,26 +14,22 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-    FILE* ptr;
-    char ch;
-    long int count;
-    size_t count_letters;
 
-    ptr = fopen(filename, O_RDONLY);
-    count = 0;
-    count_letters = 0;
+    char *buf;
+    int fd;
+
+    buf = malloc(sizeof(char) * (letters));
+	if (!buf)
+		return (0);
+
+    fd = open(filename, O_RDONLY);
  
-    if (ptr == NULL) {
-        return (0);
-    }
+   if(fd == -1)
+    {return(0);};
+
  
-    do {
-        ch = fgetc(ptr);
-        printf("%c", ch);
-        count++;
-        count_letters++;
-    } while (count_letters == letters);
+    read(fd, buf, letters);
  
-    fclose(ptr);
-    return (count);
+    close(fd);
+    return (letters);
 }
